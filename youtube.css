@@ -305,7 +305,7 @@ nav:hover {
   font-family: arial, Roboto, sans-serif;
 }
 footer {
-  color: grey;
+  color: #aaaaaa;
   font-size: 13px;
   font-family: Roboto, arial, sans-serif;
 }
@@ -674,12 +674,38 @@ li {
   overflow: auto;
   white-space: nowrap;
 }
+#videotext2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#videotext3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#videofoot {
+  margin-top: 5px;
+}
+#videofoot2 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#videoimage1:hover,
+#videoimage:hover,
+#videoimage3:hover,
+#videoimage2:hover,
+#videoimage4:hover,
+#videoimage5:hover {
+  border-radius: 0;
+}
 /* for phones*/
 @media only screen and (max-width: 600px) {
   header {
     width: 91.5%;
   }
-  body{
+  body {
     margin: 0;
     padding: 0;
   }
@@ -696,7 +722,7 @@ li {
     width: 70%;
     overflow: none;
   }
-  #maincontent:hover{
+  #maincontent:hover {
     overflow: none;
   }
   #minicontent {
@@ -893,18 +919,20 @@ li {
     width: 150px;
     padding-top: 250px;
   }
-  .videospace{
+  .videospace {
     margin-left: 6px;
   }
-  #videotext{
+  #videotext {
     margin-left: 120px;
   }
-  #videotext div{
+  #videotext div {
     font-size: 8px;
     margin-top: -20px;
   }
-  #scrollmenux{
+  #scrollmenux {
     width: 100%;
   }
-
+  #videotext3,#videotext2{
+    font-size: 12px;
+  }
 }
