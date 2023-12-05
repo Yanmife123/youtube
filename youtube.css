@@ -331,7 +331,7 @@ footer {
 #scrollmenu {
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
+  width: 97%;
 }
 #scrollmenu:hover {
   overflow: auto;
@@ -363,9 +363,6 @@ li {
   width: auto;
   color: #f1f1f1;
 }
-#row1 {
-  margin-top: 35px;
-}
 #herotext div {
   margin-left: 89.5%;
   backdrop-filter: blur(50px);
@@ -382,6 +379,7 @@ li {
 }
 #row1 {
   display: inline-flex;
+  margin-top: 35px;
 }
 #row2 {
   /*border: 2px solid blue;*/
@@ -390,6 +388,10 @@ li {
 #row3 {
   width: 320px;
   margin-left: 30px;
+}
+#secondrow1 {
+  display: inline-flex;
+  margin-top: 100px;
 }
 #heroimage {
   background-image: url(images2/warrior-anime-character-magic-mountain-lake-sky.png);
@@ -500,6 +502,42 @@ li {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+#heroimage9 {
+  background-image: url(images2/gojo.JPG);
+  width: 100%;
+  padding-top: 170px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#heroimage10 {
+  background-image: url(images2/kong.jpg);
+  width: 100%;
+  padding-top: 170px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#heroimage11 {
+  background-image: url(images2/wallpaperflare.com_wallpaper.jpg);
+  width: 100%;
+  padding-top: 170px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 #heroimage5:hover {
   border-radius: 0;
 }
@@ -527,6 +565,15 @@ li {
 #heroimage8:hover {
   border-radius: 0;
 }
+#heroimage9:hover{
+  border-radius: 0;
+}
+#heroimage10:hover{
+  border-radius: 0;
+}
+#heroimage11:hover{
+  border-radius: 0;
+}
 #profile {
   display: inline-flex;
   margin-top: 7px;
@@ -550,7 +597,7 @@ li {
   margin-top: 4px;
   background-color: white;
   border-radius: 2px;
-  margin-left: 15px;
+  margin-left:16px;
 }
 #foot {
   margin-left: 50px;
@@ -575,7 +622,7 @@ li {
   display: inline-flex;
 }
 #videos {
-  margin-top: 5px;
+  margin-top: 29px;
 }
 #videoimage {
   background-image: url(images2/space\ jam.JPG);
@@ -639,6 +686,18 @@ li {
 }
 #videoimage5 {
   background-image: url(images2/spiderman\ 1.JPG);
+  width: 190px;
+  padding-top: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#videoimage6 {
+  background-image: url(images2/funny\ shorts.jpg);
   width: 190px;
   padding-top: 350px;
   background-repeat: no-repeat;
@@ -909,13 +968,15 @@ li {
   }
   #videos {
     margin-left: -10px;
+    width: 310px;
   }
   #videoimage,
   #videoimage1,
   #videoimage2,
   #videoimage3,
   #videoimage4,
-  #videoimage5 {
+  #videoimage5,
+  #videoimage6 {
     width: 150px;
     padding-top: 250px;
   }
@@ -932,7 +993,14 @@ li {
   #scrollmenux {
     width: 100%;
   }
-  #videotext3,#videotext2{
+  #videotext3,
+  #videotext2 {
     font-size: 12px;
+  }
+}
+/* For Tablet*/
+@media only screen and (min-width: 765px) and (max-width: 920px) {
+  header {
+    width: 16.5%;
   }
 }
