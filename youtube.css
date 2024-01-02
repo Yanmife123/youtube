@@ -400,7 +400,7 @@ li {
 }
 #row3 {
   width: 320px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 #secondrow1 {
   display: inline-flex;
@@ -417,6 +417,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage1 {
   background-image: url(images2/Screenshot_20231007-025848_YouTube.jpg);
@@ -429,6 +430,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage2 {
   background-image: url(images2/movies.jpg);
@@ -441,6 +443,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage3 {
   background-image: url(images2/Screenshot_20231007-123513_YouTube.jpg);
@@ -453,6 +456,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage4 {
   background-image: url(images2/spiderman.jpg);
@@ -465,6 +469,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage6 {
   background-image: url(images2/3b897aafff9e433e339910b9613bec66.jpg);
@@ -477,6 +482,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 
 #heroimage5 {
@@ -490,6 +496,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage7 {
   background-image: url(images2/Screenshot_20230801-103315_YouTube.jpg);
@@ -502,6 +509,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage8 {
   background-image: url(images2/Screenshot_20230621-234800_eFootball.jpg);
@@ -514,6 +522,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage9 {
   background-image: url(images2/gojo.JPG);
@@ -526,6 +535,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage10 {
   background-image: url(images2/kong.jpg);
@@ -538,6 +548,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage11 {
   background-image: url(images2/wallpaperflare.com_wallpaper.jpg);
@@ -550,6 +561,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage12 {
   background-image: url(images2/congress.jpg);
@@ -562,6 +574,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage13 {
   background-image: url(images2/congress2.jpg);
@@ -574,6 +587,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage14 {
   background-image: url(images2/gitlearn.jpg);
@@ -586,6 +600,7 @@ li {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: 0.3s;
 }
 #heroimage5:hover {
   border-radius: 0;
@@ -627,10 +642,23 @@ li {
   display: inline-flex;
   margin-top: 7px;
 }
+#profile1 {
+  display: inline-flex;
+  margin-top: 7px;
+}
+
 #profile img {
   width: 40px;
   height: 40px;
   border-radius: 20px;
+  object-fit: contain;
+}
+
+#profile1 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 #subfile {
   margin-left: 10px;
@@ -647,9 +675,11 @@ li {
   background-color: white;
   border-radius: 2px;
   margin-left:16px;
+  display: block;
 }
 #foot {
   margin-left: 50px;
+  margin-top: 10px;
 }
 #youShorts {
   margin-top: 20px;
@@ -684,6 +714,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage1 {
   background-image: url(images2/spidervesre.JPG);
@@ -696,6 +727,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage2 {
   background-image: url(images2/jesus.jpg);
@@ -708,6 +740,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage3 {
   background-image: url(images2/pikacku.JPG);
@@ -720,6 +753,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage4 {
   background-image: url(images2/flame\ hashira.JPG);
@@ -732,6 +766,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage5 {
   background-image: url(images2/spiderman\ 1.JPG);
@@ -744,6 +779,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videoimage6 {
   background-image: url(images2/funny\ shorts.jpg);
@@ -756,6 +792,7 @@ li {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: 0.3s;
 }
 #videotext {
   margin-left: 160px;
@@ -805,7 +842,8 @@ li {
 #videoimage3:hover,
 #videoimage2:hover,
 #videoimage4:hover,
-#videoimage5:hover {
+#videoimage5:hover,
+#videoimage6:hover {
   border-radius: 0;
 }
 /* for phones*/
@@ -826,9 +864,10 @@ li {
   }
   #maincontent {
     height: 90%;
-    left: 135px;
+    left: 17px;
     width: 70%;
     overflow: none;
+    z-index: -1;
   }
   #maincontent:hover {
     overflow: none;
@@ -842,6 +881,8 @@ li {
     width: 29%;
     height: 90%;
     margin-left: -8px;
+    display: none;
+    background-color: #0f0f0f;
   }
   #row2 {
     width: 150px;
@@ -919,8 +960,8 @@ li {
     margin-left: 4px;
   }
   #signy img {
-    height: 17px;
-    width: 16px;
+    height: 16px;
+    width: 15px;
   }
   #signy div {
     padding: 3px 0px 3px 4px;
