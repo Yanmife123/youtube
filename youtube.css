@@ -874,7 +874,7 @@ li {
   #maincontent {
     height: 90%;
     left: 17px;
-    width: 87%;
+    width: 90vw;
     overflow: none;
     z-index: -1;
   }
