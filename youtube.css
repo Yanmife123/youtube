@@ -873,8 +873,8 @@ li {
   }
   #maincontent {
     height: 90%;
-    left: 17px;
-    width: 90vw;
+    left: 10px;
+    width: 100vw;
     overflow: none;
     z-index: -1;
   }
