@@ -377,11 +377,11 @@ li {
   padding-bottom: 4px;
   padding-right: 4px;
 }
-#herotext2{
+#herotext2 {
   padding-bottom: 4px;
   padding-right: 4px;
 }
-#herotext2 div{
+#herotext2 div {
   margin-left: 85.5%;
   backdrop-filter: blur(50px);
   background-color: #212121;
@@ -629,13 +629,22 @@ li {
 #heroimage8:hover {
   border-radius: 0;
 }
-#heroimage9:hover{
+#heroimage9:hover {
   border-radius: 0;
 }
-#heroimage10:hover{
+#heroimage10:hover {
   border-radius: 0;
 }
-#heroimage11:hover{
+#heroimage11:hover {
+  border-radius: 0;
+}
+#heroimage12:hover {
+  border-radius: 0;
+}
+#heroimage13:hover {
+  border-radius: 0;
+}
+#heroimage14:hover {
   border-radius: 0;
 }
 #profile {
@@ -674,7 +683,7 @@ li {
   margin-top: 4px;
   background-color: white;
   border-radius: 2px;
-  margin-left:16px;
+  margin-left: 16px;
   display: block;
 }
 #foot {
@@ -865,7 +874,7 @@ li {
   #maincontent {
     height: 90%;
     left: 17px;
-    width: 70%;
+    width: 87%;
     overflow: none;
     z-index: -1;
   }
@@ -885,11 +894,11 @@ li {
     background-color: #0f0f0f;
   }
   #row2 {
-    width: 150px;
+    width: 170px;
   }
   #row3 {
-    width: 150px;
-    margin-left: 13px;
+    width: 170px;
+    margin-left: 16px;
   }
   #foot {
     font-size: 6px;
@@ -900,11 +909,6 @@ li {
     width: 70%;
     margin-left: 1px;
     margin-top: 5px;
-  }
-  #profile img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
   }
   .row3 {
     display: none;
@@ -971,17 +975,21 @@ li {
   #heroimage3,
   #heroimage4,
   #heroimage6,
-  #heroimage7 {
+  #heroimage7,
+  #heroimage9,
+  #heroimage10,
+  #heroimage12,
+  #heroimage13 {
     height: 1%;
     padding-top: 130px;
-    width: 150px;
+    width: 170px;
   }
   #herotext div {
     font-size: 8px;
     margin-top: -17px;
     margin-left: 86%;
   }
-  #herotext2 div{
+  #herotext2 div {
     font-size: 8px;
     margin-top: -17px;
     margin-left: 77%;
@@ -1063,7 +1071,7 @@ li {
   }
   #videos {
     margin-left: -10px;
-    width: 310px;
+    width: 350px;
   }
   #videoimage,
   #videoimage1,
